@@ -11,7 +11,6 @@
   inputs.src-classes-v0_2_1.ref   = "refs/tags/v0.2.1";
   inputs.src-classes-v0_2_1.owner = "jjv360";
   inputs.src-classes-v0_2_1.repo  = "nim-classes";
-  inputs.src-classes-v0_2_1.dir   = "";
   inputs.src-classes-v0_2_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
